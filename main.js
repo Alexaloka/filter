@@ -1,7 +1,7 @@
 noseX=0;
 noseY=0;
 function prelosd(){
-
+clown_nose = loadImage('https://i.postimg.cc/HL0crsgk/istockphoto-851634552-612x612.jpg');
 
 }
 function setup(){
@@ -15,9 +15,7 @@ function setup(){
 }
 function draw(){
 image(video, 0, 0, 300, 300);
-fill(255,0,0);
-stroke(255,0,0);
-circle(noseX,noseY,20);
+image(clown_nose,noseX,noseY,30,30);
 }
 function take_snapshot()
 {
